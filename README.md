@@ -1,5 +1,5 @@
 
-# Code Compilation for RNA-Seq mapping and reads counts for Hi-A Corn transcriptomics project
+# Code Pipeline for RNA-Seq Mapping and Read Quantification in Hi-A Corn
 
 Welcome to this repository! This collection showcases the codes and scripts used for various bioinformatics projects at the Institute for Advancing Health Through Agriculture (IHA), Texas A&M AgriLife Research, College Station, TX. The repository includes scripts for both RNA-Seq and DNA mapping analysis.
 
