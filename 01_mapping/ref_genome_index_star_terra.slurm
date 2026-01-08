@@ -14,7 +14,7 @@ module load STAR/2.7.9a-GCC-11.2.0
 STAR --runMode genomeGenerate \
 --runThreadN 8 \
 --genomeDir /scratch/user/farid-bge/RNAseq_pipeline_test/maize_genomeDir \
---genomeFastaFiles /scratch/user/farid-bge/RNAseq_pipeline_test/Zmays_493_RefGen_V4.gene_exons.gff3 \
+--genomeFastaFiles /scratch/user/farid-bge/RNAseq_pipeline_test/Zmays_493_APGv4.fa \
 --sjdbGTFfile /scratch/user/farid-bge/RNAseq_pipeline_test/Zmays_493_RefGen_V4.gene_exons.gff3 \
 --sjdbOverhang 100 \
 --sjdbGTFtagExonParentGene ID \
