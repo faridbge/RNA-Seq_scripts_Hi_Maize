@@ -9,7 +9,6 @@ This repository provides a step-by-step workflow for processing RNA-Seq data, fr
 **01_mapping:** This section covers the alignment of raw reads to the reference genome using STAR.
 - *fastqc_terrra.slurm*: Quality check of raw reads.
 - *trimmomatic_loop_terra.slurm*: Trimming of adapter sequences.
-- *trimmomatic_terra.slurm* (Trimming reads, alternative script)
 - *ref_genome_index_star_terra.slurm*: Generation of the STAR reference genome index.
 - *mapping_reads_indexed_ref_genome.slurm*: Mapping reads to the indexed reference genome.
 - *script_counting_STAR_summary*: Script for summarizing mapping statistics.
