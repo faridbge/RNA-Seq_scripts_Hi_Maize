@@ -11,9 +11,6 @@
 module purge
 module load Trimmomatic/0.39-Java-11
 
-# Define an array of sample prefixes
-samples=("SRR8197399" "SRR8197400" "SRR8197401" "SRR8197402")
-
 # Set common parameters
 cpus=$SLURM_CPUS_PER_TASK
 min_length=36
@@ -23,8 +20,8 @@ adapter_file="$EBROOTTRIMMOMATIC/adapters/TruSeq3-PE.fa"
 # Loop through the samples and process each one
 for prefix in "${samples[@]}"
 do
-file_1="/scratch/user/farid-bge/RNAseq_pipeline_test/maize_Raw_RNAdata/trimmotic_loop_test/${prefix}_Transcriptome_dynamics_of_nucellus_in_early_maize_seed_1.fastq.gz"
-file_2="/scratch/user/farid-bge/RNAseq_pipeline_test/maize_Raw_RNAdata/trimmotic_loop_test/${prefix}_Transcriptome_dynamics_of_nucellus_in_early_maize_seed_2.fastq.gz"
+file_1="/scratch/group/timlab/Maize_Hi-A_GH/24562Tim_N25074/${prefix}1_001.fastq.gz"
+file_2="/scratch/group/timlab/Maize_Hi-A_GH/24562Tim_N25074/${prefix}2_001.fastq.gz"
 
 java -jar $EBROOTTRIMMOMATIC/trimmomatic-0.39.jar \
 PE -threads $cpus $quality_format $file_1 $file_2 \
