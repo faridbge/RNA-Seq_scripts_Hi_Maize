@@ -18,10 +18,6 @@ module load Salmon/1.10.1
 
 ### setting parameters
 cpus=$SLURM_CPUS_PER_TASK
-##file1="/scratch/user/farid-bge/Transcripts_counting/maize/samples/trimmed_samples/SRR8197457_1_paired.fq.gz"
-##file2="/scratch/user/farid-bge/Transcripts_counting/maize/samples/trimmed_samples/SRR8197457_2_paired.fq.gz"
-
-##samp='SRR8197457' ## For single sample running in case need
 
 file='/scratch/user/farid-bge/RNA_mapping_pipeline/maize_Ref_gen_Raw_data/trimmed_sample'
 
