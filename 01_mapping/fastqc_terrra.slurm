@@ -19,8 +19,6 @@ README
 ################################### VARIABLES ##################################
 # TODO Edit these variables as needed:
 ########## INPUTS ##########
-####pe1_1='/scratch/data/bio/GCATemplates/data/miseq/c_dubliniensis/DR34_R1.fastq.gz'
-####pe1_2='/scratch/data/bio/GCATemplates/data/miseq/c_dubliniensis/DR34_R2.fastq.gz'
 input_file='/scratch/user/farid-bge/RNAseq_pipeline_test/maize_Raw_RNAdata/trimmed_sample'
 ######## PARAMETERS ########
 threads=$SLURM_CPUS_PER_TASK
@@ -38,7 +36,6 @@ do
 zcat ${f} | fastqc -t $threads -o $output_dir ${f}
 done
 
-####comment: took 26 mins for 8 files in HPRC
 ################################################################################
 <<CITATION
 - Acknowledge TAMU HPRC: https://hprc.tamu.edu/research/citations.html
