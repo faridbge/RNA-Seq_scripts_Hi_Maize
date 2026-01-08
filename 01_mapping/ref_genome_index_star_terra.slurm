@@ -13,8 +13,8 @@ module load STAR/2.7.9a-GCC-11.2.0
 
 STAR --runMode genomeGenerate \
 --runThreadN 8 \
---genomeDir /scratch/user/farid-bge/RNA_mapping_pipeline/medicago_rhizo_RNA_mapping/medi_rhizo_v2_annot_CDS_genomeDir \
---genomeFastaFiles /scratch/user/farid-bge/RNA_mapping_pipeline/medicago_rhizo_RNA_mapping/ref_genome/merged_medtr.R108__sm2011_ref_genome.fasta \
+--genomeDir /scratch/user/farid-bge/RNAseq_pipeline_test/maize_genomeDir \
+--genomeFastaFiles /scratch/user/farid-bge/RNA_mapping_pipeline/medicago_rhRNA_mapping/ref_genome/merged_medtr.R108__sm2011_ref_genome.fasta \
 --sjdbGTFfile /scratch/user/farid-bge/RNA_mapping_pipeline/medicago_rhizo_RNA_mapping/ref_genome/merged_medtr.R108_rhizo_382_1197.gff3 \
 --sjdbOverhang 100 \
 --sjdbGTFtagExonParentGene ID \
