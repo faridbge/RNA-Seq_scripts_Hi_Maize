@@ -21,7 +21,7 @@ STAR --runMode alignReads \
 --outSAMtype BAM Unsorted \
 --outReadsUnmapped Fastx \
 --quantMode GeneCounts \
---sjdbGTFfile /scratch/user/farid-bge/RNAseq_pipeline_test/Zea_mays.Zm-B73-REFERENCE-NAM-5.0.55.renamed_chr_1.gff3 \
+--sjdbGTFfile /scratch/user/farid-bge/RNAseq_pipeline_test/Zmays_493_RefGen_V4.gene_exons.gff3 \
 --sjdbGTFfeatureExon CDS \
 --sjdbGTFtagExonParentGene ID \
 --outFileNamePrefix ${i} \
