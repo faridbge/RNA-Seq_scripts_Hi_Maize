@@ -7,7 +7,7 @@ Here's what you'll find:
 - **README file**
 - **Script documentation:**
     - *RNA Mapping Pipeline.md*
-    - *TAMU_HPRC.md*
+      
 - **Scripts:**
     - *Preprocessing:*
         - fastqc_terrra.slurm (Quality check of raw reads)
