@@ -5,26 +5,21 @@ Welcome to this repository! This collection showcases the codes and scripts used
 
 Here's what you'll find:
 - **README file: describe about the page**
-- **Script for RNA mapping:**
+- **Script for RNA mapping:** This folder has a brief description about RNA mapping and associated scripts used during mapping.
     - *RNA Mapping Pipeline.md*
     - *fastqc_terrra.slurm* (Quality check of raw reads)
     - *trimmomatic_loop_terra.slurm* (Trimming reads)
     - *trimmomatic_terra.slurm* (Trimming reads, alternative script)
     - ref_genome_index_star_terra.slurm (Indexing reference genome)
     - mapping_reads_indexed_ref_genome.slurm (Mapping reads to reference genome)
-      
-- **Script for reads counting**:
-     
-    - *Counting reads*
-        - script_salmon_quantifying.slurm
-        - script_salmon_indexing.slurm
-        - script_counting_STAR_summary   
-    - *Analysis:*
-        - script_processing_STAR_output_files.R
-          
+    -       
+- **Script for reads counting**: This folder contains scripts for reads counting.     
+    - *script_counting_STAR_summary*
+    - *script_salmon_indexing.slurm*
+    - *script_salmon_quantifying.slurm*
+    - *script_processing_STAR_output_files.R*              
             
 ## Languages Used
-
 - Bash
 - R
 
